@@ -75,7 +75,7 @@ class TicTacToe
   end
  
   def full?
-    
+    if @board 
   end
   
 end
