@@ -89,6 +89,7 @@ class TicTacToe
   
   def over?
     if full? == true || won? == true
+    end
   end
   
 end
