@@ -92,6 +92,14 @@ class TicTacToe
     end
   end
   
+  def play 
+    until over?
+      turn 
+    end
+    
+    if draw?
+      
+  end 
   
   
 end
