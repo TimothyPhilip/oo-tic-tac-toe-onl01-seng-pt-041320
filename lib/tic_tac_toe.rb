@@ -87,9 +87,11 @@ class TicTacToe
   end
   
   def winner
-    if combo = won?  
+    if combo = won?  #you can store a method outcome in a variable
       @board[combo[0]]
     end
   end
+  
+  
   
 end
