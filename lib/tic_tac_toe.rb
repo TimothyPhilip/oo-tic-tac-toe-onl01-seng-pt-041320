@@ -83,8 +83,8 @@ class TicTacToe
       true
     elsif won? == true
       false 
-    elsif won? == nil || 
-      
+    elsif won? == nil || full? == false
+    end  
   end
   
 end
